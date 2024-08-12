@@ -24,7 +24,7 @@ function Carousel() {
                 <img 
                 key={image}
                 src={image}
-                className=' w-72 object-cover ' />
+                className='w-64 h-64 lg:w-96 lg:h-96 object-cover ' />
             ))}
             
         </div>

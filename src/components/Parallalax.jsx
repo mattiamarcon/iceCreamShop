@@ -23,9 +23,8 @@ function Parallalax() {
 
   return (
     <section id='parallax' className='flex max-lg:flex-col justify-center items-center'>
-      <video muted autoPlay loop={true} className='w-52 lg:w-96  pointer-events-none '>
-        <source src='animation.mp4' type='video/mp4'  />
-      </video>
+      <img src="ice-cream.gif" alt="" className='w-52 lg:w-96' />
+      
       <div id='parallaxText' className='opacity-1 flex flex-col items-center justify-center text-5xl lg:text-7xl w-fit'>
         <p className='pElements p1'>GUSTOSO</p>
         <p className='pElements p2'>RINFRESCANTE</p>
@@ -38,3 +37,7 @@ function Parallalax() {
 }
 
 export default Parallalax
+
+{/* <video muted autoPlay loop={true} className='w-52 lg:w-96  pointer-events-none '>
+        <source src='animation.mp4' type='video/mp4'  />
+      </video> */}
