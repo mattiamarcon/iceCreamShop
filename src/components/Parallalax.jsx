@@ -37,7 +37,3 @@ function Parallalax() {
 }
 
 export default Parallalax
-
-{/* <video muted autoPlay loop={true} className='w-52 lg:w-96  pointer-events-none '>
-        <source src='animation.mp4' type='video/mp4'  />
-      </video> */}
